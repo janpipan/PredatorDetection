@@ -159,7 +159,7 @@ void setup()
     predatorDetectionService.addCharacteristic(predatorDetectionCharacteristic);
     BLE.addService(predatorDetectionService);
   
-    predatorDetectionCharacteristic.writeValue(0);
+    predatorDetectionCharacteristic.writeValue(5);
   
     BLE.advertise();
   
@@ -285,6 +285,7 @@ void loop()
       
               if (!bb_found) {
                   ei_printf("    No objects found\n");
+                  predatorDetectionCharacteristic.writeValue(0);
                   digitalWrite(GREEN, LOW);
                   digitalWrite(RED, HIGH);
               }
