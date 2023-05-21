@@ -23,10 +23,12 @@ class ClassificationViewModel @Inject constructor(
     var errorMessage by mutableStateOf<String?>(null)
         private set
 
-    var classification by mutableStateOf(0)
+    var classification by mutableStateOf<String?>("Nothing Detected")
         private set
 
+
     var connectionState by mutableStateOf<ConnectionState>(ConnectionState.Uninitialized)
+
 
     private fun subscribeToChanges(){
         viewModelScope.launch {

@@ -90,8 +90,8 @@ fun ClassificationScreen(
     ){
         Column(
             modifier = Modifier
-                .fillMaxWidth(0.6f)
-                .aspectRatio(1f)
+                .fillMaxWidth(0.8f)
+                .aspectRatio(2f)
                 .border(
                     BorderStroke(
                         5.dp, Color.Blue
@@ -150,7 +150,7 @@ fun ClassificationScreen(
                     verticalArrangement = Arrangement.Center
                 ){
                     Text(
-                        text = "Classification: ${viewModel.classification}",
+                        text = "Detected: ${viewModel.classification}",
                         style = MaterialTheme.typography.h6
                     )
                 }

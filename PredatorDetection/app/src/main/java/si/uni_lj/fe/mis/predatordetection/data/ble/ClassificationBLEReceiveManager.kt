@@ -19,6 +19,7 @@ import kotlinx.coroutines.launch
 import si.uni_lj.fe.mis.predatordetection.data.ClassificationReceiveManager
 import si.uni_lj.fe.mis.predatordetection.data.ClassificationResult
 import si.uni_lj.fe.mis.predatordetection.data.ConnectionState
+import si.uni_lj.fe.mis.predatordetection.notifications.ClassificationNotificationService
 import si.uni_lj.fe.mis.predatordetection.util.Resource
 import java.util.UUID
 import javax.inject.Inject
@@ -79,7 +80,7 @@ class ClassificationBLEReceiveManager @Inject constructor(
                     this@ClassificationBLEReceiveManager.gatt = gatt
                 } else if(newState == BluetoothProfile.STATE_DISCONNECTED){
                     coroutineScope.launch {
-                        data.emit(Resource.Success(data = ClassificationResult(0, ConnectionState.Disconnected)))
+                        data.emit(Resource.Success(data = ClassificationResult("Nothing Detected", ConnectionState.Disconnected)))
                     }
                     gatt.close()
                 }
@@ -143,11 +144,19 @@ class ClassificationBLEReceiveManager @Inject constructor(
             gatt: BluetoothGatt,
             characteristic: BluetoothGattCharacteristic
         ) {
+            val notificationService = ClassificationNotificationService(context)
             with(characteristic){
                 when(uuid){
                     UUID.fromString(CLASSIFICATION_CHARACTERISTICS_UUID) -> {
-                        //XX XX XX XX XX XX
-                        val classification = value[0].toInt()
+                        val receivedValue = value[0].toInt()
+                        var classification:String = "Nothing detected"
+                        if (receivedValue == 1){
+                            classification = "fox"
+                            notificationService.showNotification("fox")
+                        } else if (receivedValue == 2){
+                            classification = "wolf"
+                            notificationService.showNotification("wolf")
+                        }
                         val classificationResult = ClassificationResult(
                             classification,
                             ConnectionState.Connected
