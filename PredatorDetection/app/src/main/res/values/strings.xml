@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PredatorDetection</string>
+    <string name="channel_name">Channel_name\n</string>
+    <string name="channel_description">Channel_description\n</string>
+</resources>

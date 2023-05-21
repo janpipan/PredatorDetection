@@ -1,0 +1,378 @@
+{
+    "version": 1,
+    "type": "bounding-box-labels",
+    "boundingBoxes": {
+        "0df78ee76bafd3a9.jpg": [
+            {
+                "label": "Bear",
+                "x": 212,
+                "y": 134,
+                "width": 741,
+                "height": 627
+            }
+        ],
+        "0f899aca6d0fb6e1.jpg": [
+            {
+                "label": "Bear",
+                "x": 208,
+                "y": 106,
+                "width": 940,
+                "height": 687
+            }
+        ],
+        "1cca48c57103a42c.jpg": [
+            {
+                "label": "Bear",
+                "x": 106,
+                "y": 111,
+                "width": 829,
+                "height": 610
+            }
+        ],
+        "1fa809bf6cf5ea36.jpg": [
+            {
+                "label": "Bear",
+                "x": 206,
+                "y": 39,
+                "width": 555,
+                "height": 911
+            }
+        ],
+        "200046eca85cd992.jpg": [
+            {
+                "label": "Bear",
+                "x": 289,
+                "y": 223,
+                "width": 972,
+                "height": 700
+            }
+        ],
+        "23bf858cb1d0ef63.jpg": [
+            {
+                "label": "Bear",
+                "x": 159,
+                "y": 260,
+                "width": 670,
+                "height": 570
+            }
+        ],
+        "23d1d39d81d411da.jpg": [
+            {
+                "label": "Bear",
+                "x": 0,
+                "y": 36,
+                "width": 827,
+                "height": 982
+            }
+        ],
+        "322e901e952ea866.jpg": [
+            {
+                "label": "Bear",
+                "x": 142,
+                "y": 146,
+                "width": 620,
+                "height": 541
+            }
+        ],
+        "3d77555f2ede0b38.jpg": [
+            {
+                "label": "Bear",
+                "x": 43,
+                "y": 187,
+                "width": 315,
+                "height": 671
+            }
+        ],
+        "3df2b6a098712fee.jpg": [
+            {
+                "label": "Bear",
+                "x": 89,
+                "y": 132,
+                "width": 983,
+                "height": 768
+            }
+        ],
+        "41b188a87b9cb7d9.jpg": [
+            {
+                "label": "Bear",
+                "x": 0,
+                "y": 426,
+                "width": 769,
+                "height": 1024
+            }
+        ],
+        "50100f0b149c5668.jpg": [
+            {
+                "label": "Bear",
+                "x": 328,
+                "y": 116,
+                "width": 871,
+                "height": 667
+            }
+        ],
+        "5e4722478ab9c699.jpg": [
+            {
+                "label": "Bear",
+                "x": 366,
+                "y": 22,
+                "width": 869,
+                "height": 449
+            }
+        ],
+        "685ec158610ee9c3.jpg": [
+            {
+                "label": "Bear",
+                "x": 0,
+                "y": 128,
+                "width": 841,
+                "height": 639
+            }
+        ],
+        "6c413bd13881e4ea.jpg": [
+            {
+                "label": "Bear",
+                "x": 117,
+                "y": 3,
+                "width": 737,
+                "height": 566
+            }
+        ],
+        "77d8f1427530d52c.jpg": [
+            {
+                "label": "Bear",
+                "x": 108,
+                "y": 145,
+                "width": 1009,
+                "height": 683
+            }
+        ],
+        "835f500b4f18425a.jpg": [
+            {
+                "label": "Bear",
+                "x": 469,
+                "y": 241,
+                "width": 666,
+                "height": 553
+            }
+        ],
+        "84c540da3f9e5436.jpg": [
+            {
+                "label": "Bear",
+                "x": 335,
+                "y": 190,
+                "width": 836,
+                "height": 566
+            }
+        ],
+        "8c3a0db73abdfed4.jpg": [
+            {
+                "label": "Bear",
+                "x": 0,
+                "y": 114,
+                "width": 483,
+                "height": 682
+            },
+            {
+                "label": "Bear",
+                "x": 365,
+                "y": 292,
+                "width": 1024,
+                "height": 682
+            }
+        ],
+        "981ff8cfd891a39a.jpg": [
+            {
+                "label": "Bear",
+                "x": 122,
+                "y": 482,
+                "width": 384,
+                "height": 885
+            },
+            {
+                "label": "Bear",
+                "x": 304,
+                "y": 25,
+                "width": 675,
+                "height": 564
+            }
+        ],
+        "9e411cef88b11bb7.jpg": [
+            {
+                "label": "Bear",
+                "x": 341,
+                "y": 247,
+                "width": 612,
+                "height": 597
+            }
+        ],
+        "a043c1c94c493735.jpg": [
+            {
+                "label": "Bear",
+                "x": 377,
+                "y": 186,
+                "width": 802,
+                "height": 441
+            }
+        ],
+        "a725b87082af9473.jpg": [
+            {
+                "label": "Bear",
+                "x": 165,
+                "y": 236,
+                "width": 898,
+                "height": 498
+            }
+        ],
+        "aadda77be1e8bc0b.jpg": [
+            {
+                "label": "Bear",
+                "x": 324,
+                "y": 67,
+                "width": 676,
+                "height": 571
+            }
+        ],
+        "ab68f7a2c2575ff6.jpg": [
+            {
+                "label": "Bear",
+                "x": 249,
+                "y": 104,
+                "width": 982,
+                "height": 579
+            }
+        ],
+        "ae4e59f858eb042a.jpg": [
+            {
+                "label": "Bear",
+                "x": 272,
+                "y": 183,
+                "width": 801,
+                "height": 699
+            }
+        ],
+        "aea7138636948eee.jpg": [
+            {
+                "label": "Bear",
+                "x": 426,
+                "y": 209,
+                "width": 939,
+                "height": 681
+            }
+        ],
+        "b2d92399ba4b0328.jpg": [
+            {
+                "label": "Bear",
+                "x": 310,
+                "y": 155,
+                "width": 798,
+                "height": 575
+            }
+        ],
+        "bb2d5daedea06da5.jpg": [
+            {
+                "label": "Bear",
+                "x": 426,
+                "y": 110,
+                "width": 816,
+                "height": 540
+            }
+        ],
+        "bcd925c7811ff07b.jpg": [
+            {
+                "label": "Bear",
+                "x": 30,
+                "y": 184,
+                "width": 618,
+                "height": 605
+            },
+            {
+                "label": "Bear",
+                "x": 453,
+                "y": 38,
+                "width": 1003,
+                "height": 692
+            }
+        ],
+        "c087a950d5217c13.jpg": [
+            {
+                "label": "Bear",
+                "x": 154,
+                "y": 89,
+                "width": 532,
+                "height": 925
+            }
+        ],
+        "c95acf66771a868e.jpg": [
+            {
+                "label": "Bear",
+                "x": 40,
+                "y": 104,
+                "width": 527,
+                "height": 911
+            }
+        ],
+        "cb48bf7102604c06.jpg": [
+            {
+                "label": "Bear",
+                "x": 424,
+                "y": 333,
+                "width": 733,
+                "height": 699
+            }
+        ],
+        "cbcd47e43104de25.jpg": [
+            {
+                "label": "Bear",
+                "x": 0,
+                "y": 10,
+                "width": 824,
+                "height": 682
+            }
+        ],
+        "de4f80f11b9dcb1b.jpg": [
+            {
+                "label": "Bear",
+                "x": 314,
+                "y": 11,
+                "width": 1024,
+                "height": 624
+            }
+        ],
+        "eab56e74f42e5286.jpg": [
+            {
+                "label": "Bear",
+                "x": 377,
+                "y": 171,
+                "width": 732,
+                "height": 449
+            }
+        ],
+        "ee8b8d14a20aaca8.jpg": [
+            {
+                "label": "Bear",
+                "x": 326,
+                "y": 0,
+                "width": 1023,
+                "height": 683
+            }
+        ],
+        "f0cd1050b09dd625.jpg": [
+            {
+                "label": "Bear",
+                "x": 52,
+                "y": 53,
+                "width": 1024,
+                "height": 780
+            }
+        ],
+        "fc5221a9c7909df6.jpg": [
+            {
+                "label": "Bear",
+                "x": 205,
+                "y": 18,
+                "width": 584,
+                "height": 408
+            }
+        ]
+    }
+}
